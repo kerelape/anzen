@@ -19,7 +19,7 @@ POST /v1/signup/secret
 If email verification is enabled, returns `202 Accepted` and sends
 an email to the user with verification code.
 
-> Note
+> **Note**<br/>
 > The verification code is only active for a short period of time, defined
 > in the config (6 hours by default).
 
