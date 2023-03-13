@@ -1,4 +1,4 @@
-module github.com/kamigaming/auth
+module github.com/kerelape/anzen
 
 go 1.20
 

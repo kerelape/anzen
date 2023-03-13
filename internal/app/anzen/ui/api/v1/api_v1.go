@@ -4,7 +4,7 @@ import (
 	"net/http"
 
 	"github.com/go-chi/chi/v5"
-	"github.com/kamigaming/auth/internal/app/auth/ui"
+	"github.com/kerelape/anzen/internal/app/anzen/ui"
 )
 
 // API version 1.
