@@ -7,7 +7,7 @@ import (
 	"github.com/kerelape/anzen/internal/app/anzen/ui"
 )
 
-// APIv1.
+// APIv1 entry.
 type APIv1 struct {
 	login  ui.HTTPEntry
 	signup ui.HTTPEntry
