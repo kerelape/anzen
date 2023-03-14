@@ -15,7 +15,7 @@ type Signup struct {
 // NewSignup create new Signup.
 func NewSignup() *Signup {
 	return &Signup{
-		secret: nil,
+		secret: NewSecret(),
 	}
 }
 
