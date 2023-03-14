@@ -5,6 +5,7 @@ import (
 
 	"github.com/go-chi/chi/v5"
 	"github.com/kerelape/anzen/internal/app/anzen/ui"
+	"github.com/kerelape/anzen/internal/app/anzen/ui/api/v1/signup"
 )
 
 // APIv1 entry.
@@ -17,7 +18,7 @@ type APIv1 struct {
 func NewAPIv1() APIv1 {
 	return APIv1{
 		login:  nil,
-		signup: nil,
+		signup: signup.NewSignup(),
 	}
 }
 
