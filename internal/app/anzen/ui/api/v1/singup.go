@@ -1,10 +1,11 @@
-package signup
+package v1
 
 import (
 	"net/http"
 
 	"github.com/go-chi/chi/v5"
 	"github.com/kerelape/anzen/internal/app/anzen/ui"
+	"github.com/kerelape/anzen/internal/app/anzen/ui/api/v1/signup"
 )
 
 // Signup entry.
@@ -15,7 +16,7 @@ type Signup struct {
 // NewSignup create new Signup.
 func NewSignup() *Signup {
 	return &Signup{
-		secret: NewSecret(),
+		secret: signup.NewSecret(),
 	}
 }
 
